@@ -1,26 +1,34 @@
+# E-News Express A/B Testing Project
 
-Business Context
-The advent of e-news, or electronic news, portals has offered us a great opportunity to quickly get updates on the day-to-day events occurring globally. The information on these portals is retrieved electronically from online databases, processed using a variety of software, and then transmitted to the users. There are multiple advantages of transmitting new electronically, like faster access to the content and the ability to utilize different technologies such as audio, graphics, video, and other interactive elements that are either not being used or aren’t common yet in traditional newspapers.
+## Business Context
 
-E-news Express, an online news portal, aims to expand its business by acquiring new subscribers. With every visitor to the website taking certain actions based on their interest, the company plans to analyze these actions to understand user interests and determine how to drive better engagement. The executives at E-news Express are of the opinion that there has been a decline in new monthly subscribers compared to the past year because the current webpage is not designed well enough in terms of the outline & recommended content to keep customers engaged long enough to make a decision to subscribe.
+The advent of e-news portals has provided a significant opportunity for rapid access to global news updates. Information from these portals is retrieved electronically from online databases, processed using various software, and transmitted to users. The advantages of transmitting news electronically include faster content access and the ability to utilize diverse technologies such as audio, graphics, video, and other interactive elements that are either not utilized or uncommon in traditional newspapers.
 
-[Companies often analyze user responses to two variants of a product to decide which of the two variants is more effective. This experimental technique, known as A/B testing, is used to determine whether a new feature attracts users based on a chosen metric.]
+E-News Express, an online news portal, aims to expand its subscriber base. With every visitor taking specific actions based on their interests, the company plans to analyze these behaviors to understand user preferences and enhance engagement. Executives at E-News Express have observed a decline in new monthly subscribers compared to the previous year, attributing it to the current webpage’s design, which may not effectively engage users long enough to encourage subscription.
 
-Objective
-The design team of the company has researched and created a new landing page that has a new outline & more relevant content shown compared to the old page. In order to test the effectiveness of the new landing page in gathering new subscribers, the Data Science team conducted an experiment by randomly selecting 100 users and dividing them equally into two groups. The existing landing page was served to the first group (control group) and the new landing page to the second group (treatment group). Data regarding the interaction of users in both groups with the two versions of the landing page was collected. Being a data scientist in E-news Express, you have been asked to explore the data and perform a statistical analysis (at a significance level of 5%) to determine the effectiveness of the new landing page in gathering new subscribers for the news portal by answering the following questions:
+To address this, E-News Express is implementing an experimental technique known as **A/B testing**. This method involves analyzing user responses to two variants of a product to determine which version is more effective based on chosen metrics.
 
-Do the users spend more time on the new landing page than on the existing landing page?
-Is the conversion rate (the proportion of users who visit the landing page and get converted) for the new page greater than the conversion rate for the old page?
-Does the converted status depend on the preferred language?
-Is the time spent on the new page the same for the different language users?
- 
+## Objective
 
-Data Dictionary
-The data contains information regarding the interaction of users in both groups with the two versions of the landing page.
+The design team has researched and developed a new landing page featuring an improved outline and more relevant content. To test the effectiveness of this new landing page in attracting new subscribers, the Data Science team conducted an experiment by randomly selecting 100 users and dividing them equally into two groups:
 
-user_id - Unique user ID of the person visiting the website
-group - Whether the user belongs to the first group (control) or the second group (treatment)
-landing_page - Whether the landing page is new or old
-time_spent_on_the_page - Time (in minutes) spent by the user on the landing page
-converted - Whether the user gets converted to a subscriber of the news portal or not
-language_preferred - Language chosen by the user to view the landing page
+- **Control Group:** Served the existing landing page.
+- **Treatment Group:** Served the new landing page.
+
+Data regarding user interactions with both versions of the landing page was collected. As a data scientist at E-News Express, you are tasked with exploring the data and performing a statistical analysis (at a significance level of 5%) to determine the effectiveness of the new landing page in gathering new subscribers by answering the following questions:
+
+1. Do users spend more time on the new landing page compared to the existing one?
+2. Is the conversion rate (the proportion of users who visit the landing page and subscribe) for the new page greater than that of the old page?
+3. Does the conversion status depend on the preferred language?
+4. Is the time spent on the new page consistent across different language users?
+
+## Data Dictionary
+
+The dataset contains information regarding user interactions with both landing page variants:
+
+- **user_id:** Unique user ID of the person visiting the website.
+- **group:** Indicates whether the user belongs to the control group (existing landing page) or treatment group (new landing page).
+- **landing_page:** Specifies whether the landing page is new or old.
+- **time_spent_on_the_page:** Time (in minutes) spent by the user on the landing page.
+- **converted:** Indicates whether the user became a subscriber of the news portal.
+- **language_preferred:** Language chosen by the user to view the landing page.
