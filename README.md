@@ -24,14 +24,16 @@ Data regarding user interactions with both versions of the landing page was coll
 
 ## Data Dictionary
 
-The dataset contains information regarding user interactions with both landing page variants:
+## Data Dictionary
 
-- **user_id:** Unique user ID of the person visiting the website.
-- **group:** Indicates whether the user belongs to the control group (existing landing page) or treatment group (new landing page).
-- **landing_page:** Specifies whether the landing page is new or old.
-- **time_spent_on_the_page:** Time (in minutes) spent by the user on the landing page.
-- **converted:** Indicates whether the user became a subscriber of the news portal.
-- **language_preferred:** Language chosen by the user to view the landing page.
+| **Column Name**          | **Description**                                                               |
+|--------------------------|-------------------------------------------------------------------------------|
+| `user_id`                | Unique user ID of the person visiting the website.                           |
+| `group`                  | Indicates whether the user belongs to the control group or treatment group.  |
+| `landing_page`           | Specifies whether the landing page is new or old.                           |
+| `time_spent_on_the_page` | Time (in minutes) spent by the user on the landing page.                   |
+| `converted`              | Indicates whether the user became a subscriber of the news portal.          |
+| `language_preferred`     | Language chosen by the user to view the landing page.                       |
 
 
 ## Skills Learned and Applied
