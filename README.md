@@ -32,3 +32,36 @@ The dataset contains information regarding user interactions with both landing p
 - **time_spent_on_the_page:** Time (in minutes) spent by the user on the landing page.
 - **converted:** Indicates whether the user became a subscriber of the news portal.
 - **language_preferred:** Language chosen by the user to view the landing page.
+
+
+## Skills Learned and Applied
+
+- **Exploratory Data Analysis (EDA):** 
+  - Problem definition
+  - Data understanding
+  - Univariate and bivariate analysis
+  - Generating insights through data visualization
+
+- **Statistical Analysis:** 
+  - Conducted A/B testing to compare user engagement between two landing page designs.
+
+- **Data Preprocessing:** 
+  - Data cleaning
+  - Handling missing values
+  - Preparing datasets for analysis
+
+- **Hypothesis Testing:** 
+  - Used statistical methods to test the significance of findings at a 5% significance level.
+
+- **Data Visualization:** 
+  - Created visualizations to represent data trends and insights effectively.
+
+- **Reporting:** 
+  - Compiled findings and presented results in a clear, actionable format.
+
+## Professor Feedback
+
+- The analysis was thorough and well-structured, demonstrating a solid understanding of A/B testing methodology.
+- Your insights from the data were well-articulated, and the recommendations provided were actionable.
+- Great job on the data visualization; it enhanced the clarity of your findings.
+- Consider expanding on the implications of your findings for E-News Express in future reports.
